@@ -63,6 +63,7 @@ app.post('/api', function(req, res){
 		}
 		//res.redirect('https://daniels-pet-weather-app.herokuapp.com');
 		res.json(newPet);
+		res.redirect('https://daniels-pet-weather-app.herokuapp.com');
 	});
 });
 app.get('/', function(req, res){
